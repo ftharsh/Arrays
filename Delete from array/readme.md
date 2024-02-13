@@ -1,5 +1,5 @@
 # Deletion from array through index
-##logic
+## logic
 ```cpp
 function deletion(arr, size, index):
     if index < 0 OR index >= size:
