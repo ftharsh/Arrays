@@ -40,4 +40,4 @@ Sample Input:
 Sample Output:
 2 3 3 4 5 6 7 10
 
-###This will insert the number 3 at index 2 in the array {2, 3, 4, 5, 6, 7, 10}.
+### This will insert the number 3 at index 2 in the array {2, 3, 4, 5, 6, 7, 10}.
