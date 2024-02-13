@@ -25,3 +25,7 @@ Shifting Elements: If the index is valid, the function proceeds to shift the ele
 Updating Size: After shifting the elements, the function decrements the size variable by 1 to reflect that an element has been removed from the array.
 
 Printing Final Array: Finally, the function prints the updated array after deletion. It iterates over the array from index 0 to size - 1, printing each element separated by a space. This displays the array with the removed element.
+```bash
+g++ insertion_array.cpp -o insertion_array
+./insertion_array
+```
