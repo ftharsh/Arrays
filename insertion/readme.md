@@ -23,7 +23,7 @@ public:
         cout << endl;
     }
 };
-
+```
 ###Usage
 User inputs the size of the array.
 User inputs the elements of the array.
@@ -42,6 +42,7 @@ void display(int *arr, int s) {
     }
     cout << endl;
 }
+```
 ###Usage
 A predefined array is provided in the code.
 The size of the array is calculated using the sizeof operator.
