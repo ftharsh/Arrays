@@ -29,10 +29,10 @@ struct Array{
 };
 ```
 
-+Defines a structure named Array that contains:
-+lenght: An integer to store the number of elements in the array.
-+size: An integer to store the capacity of the array.
-+a: A pointer to an integer array. This will point to the dynamically allocated memory for storing the elements.
+- Defines a structure named Array that contains:
+  - lenght: An integer to store the number of elements in the array.
+  - size: An integer to store the capacity of the array.
+  - a: A pointer to an integer array. This will point to the dynamically allocated memory for storing the elements.
 
 ### Display Function
 
@@ -49,8 +49,8 @@ void display(struct Array arr){
 
 ```
 
-+A function named display which takes a structure Array as an argument and prints its elements.
-+Iterates over the array elements using a for loop and prints each element.
+- A function named display which takes a structure Array as an argument and prints its elements.
+  - Iterates over the array elements using a for loop and prints each element.
 
 ### Main Function
 
@@ -77,9 +77,9 @@ int main(){
 
 ```
 
-+Entry point for the program.
-+Declares an instance of Array.
-+Reads the size of the array from user input and initializes the array with dynamic memory allocation.
-+Reads the actual number of elements and the values of those elements.
-+Calls the display function to print the array.
-Ends program execution with a return statement.
+- Entry point for the program.
+- Declares an instance of Array.
+- Reads the size of the array from user input and initializes the array with dynamic memory allocation.
+- Reads the actual number of elements and the values of those elements.
+- Calls the display function to print the array.
+  Ends program execution with a return statement.
