@@ -8,7 +8,7 @@ struct Array{
 };
 
 void display(struct Array arr){
-    cout << "The elemnts of the Array is : " ;
+    cout << "The elements of the Array is : " ;
     for (int i = 0; i < arr.lenght; i++)
     {
         cout << arr.a[i];
